@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
   <link rel="stylesheet" href="styles.css">
   <title>Proyecto final 2 entrega</title>
 </head>
@@ -72,7 +74,30 @@
   <!-- SECCION INGRESOS SLIDER -->
   <section class="news">
     <h2 class="title-news">Ultimos ingresos</h2>
-    <p>Aca va un slider</p>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="https://http2.mlstatic.com/D_NQ_NP_2X_746825-MLA50249425214_062022-F.webp"
+            alt=""> </div>
+        <div class="swiper-slide "><img src="https://http2.mlstatic.com/D_NQ_NP_2X_699851-MLA40862922069_022020-F.webp"
+            alt="">
+        </div>
+        <div class="swiper-slide img-ps5 "><img
+            src="https://http2.mlstatic.com/D_NQ_NP_2X_710956-MLA51275779605_082022-F.webp" alt=""></div>
+
+        <div class="swiper-slide img-ps5 "><img
+            src="https://http2.mlstatic.com/D_NQ_NP_2X_736145-MLA50145467465_052022-F.webp" alt=""></div>
+        <div class="swiper-slide"><img src="https://http2.mlstatic.com/D_NQ_NP_2X_976227-MLA40865290222_022020-F.webp"
+            alt="">
+        </div>
+        <div class="swiper-slide"><img src="https://http2.mlstatic.com/D_NQ_NP_650648-MLA43429177645_092020-O.webp"
+            alt=""></div>
+        <div class="swiper-slide img-ps5"><img
+            src="https://http2.mlstatic.com/D_NQ_NP_2X_926589-MLA49015885287_022022-F.webp" alt=""></div>
+        <div class="swiper-slide img-ps5"><img
+            src="https://http2.mlstatic.com/D_NQ_NP_2X_858358-MLA47203909054_082021-F.webp" alt=""></div>
+      </div>
+      <div class="swiper-pagination "></div>
+    </div>
   </section>
   <!-- SECCION OFERTA -->
   <section class="offer">
@@ -149,6 +174,8 @@
     </div>
     <p class="copy">©Copyright Alejandro Ruiz</p>
   </footer>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="./script.js"></script>
 </body>
 
